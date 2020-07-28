@@ -1,0 +1,45 @@
+Class: Chair
+
+booth = Chair.new(Wood, 4, 40, false, true)
+
+Method_results=
+adjust_height = 25
+
+to_relax = true
+
+to_move = false
+
+request = "Booth available"
+
+Methods below:
+
+
+`# gives booster seats for kids
+adjust_height (
+def booster
+   height = 4
+   booster == height + 1
+  end
+  )
+#requests the better seats in the house
+to_relax if
+  cushion == true
+  p "Cushion are the best!"
+ end
+
+#handicap accesible
+to_move if
+  wheels == true
+   p "Table 4 accesible by ramp"
+  else
+   p "no tables available"
+  end
+
+#asking for booth
+def request(arg1) do
+   width >= 20
+     p "Booth available"
+   width <= 20
+     p "table for 6 available"
+   end
+  end`
