@@ -1,0 +1,33 @@
+Class: LightFixture
+
+Attributes:
+
+watts (integer)
+type (string)
+status (boolean)
+style (string)
+
+Methods:
+
+def bulb_watts(int)
+   bright == true
+   bulb_watts(100)
+  end
+
+def update_type(string) if
+   type == fluorescent
+   p "Please update to LED"
+  end
+end
+
+def change if
+  switch == on && status = off
+  p "The bulb needs to be changed."
+  end
+end
+
+def pool_table_style
+  if  style.downcase = "Low hanging LED fixture"
+  p "We need a pool table here!"
+  end
+end
