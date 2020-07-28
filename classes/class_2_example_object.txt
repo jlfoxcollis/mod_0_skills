@@ -1,0 +1,13 @@
+Class: LightFixture
+
+bar_light = LightFixture.new (60, fluorescent, on, Pendant)
+
+Method results:
+
+bulb_watts == 60
+
+update_type = "Please update to LED"
+
+change = false
+
+pool_table_style = false
