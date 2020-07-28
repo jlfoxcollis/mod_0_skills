@@ -1,0 +1,40 @@
+Class: Chair
+
+Attributes:
+material (string)
+height(integer)
+width(integer)
+wheels(boolean)
+cushion(boolean)
+
+Methods:
+
+# gives booster seats for kids
+adjust_height (
+def booster
+   height = 4
+   booster == height + 1
+  end
+  )
+#requests the better seats in the house
+to_relax if
+  cushion == true
+  p "Cushion are the best!"
+ end
+
+#handicap accesible
+to_move if
+  wheels == true
+   p "Table 4 accesible by ramp"
+  else
+   p "no tables available"
+  end
+
+#asking for booth
+def request(arg1) do
+   width >= 20
+     p "Booth available"
+   width <= 20
+     p "table for 6 available"
+   end
+  end
