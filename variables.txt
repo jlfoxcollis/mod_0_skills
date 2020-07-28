@@ -1,0 +1,15 @@
+food = "pizza"
+is_delicious = true
+food = "donuts"
+num2 = 4
+num7 = 14
+def quotient do
+  num7 / num2
+  return
+end
+
+song = ("The Search", "Stop it now", "Imagine")
+
+song.delete_at[0]
+
+food.length
