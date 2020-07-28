@@ -8,24 +8,27 @@ status (boolean)
 style (string)
 
 Methods:
-
+#determines that a bulb is bright or not
 def bulb_watts(int)
+   if watts >= 100
    bright == true
-   bulb_watts(100)
   end
 
+#Energy efficiency is key!
 def update_type(string) if
    type == fluorescent
    p "Please update to LED"
   end
 end
 
+#checks if the bulb is burned out.
 def change if
   switch == on && status = off
   p "The bulb needs to be changed."
   end
 end
 
+#checks to see if the Class type is suitable for a pool table.
 def pool_table_style
   if  style.downcase = "Low hanging LED fixture"
   p "We need a pool table here!"
