@@ -1,4 +1,4 @@
-Class: Chair
+Class: LeonosArmChair
 
 Attributes:
 material (wood)
@@ -11,8 +11,6 @@ color(brown)
 
 
 Methods:
-`
-
 
 adjustHeight:    def booster
                   height = 10
@@ -31,4 +29,4 @@ changeColor:  color = "Red"
 lockTilt:  if tilt == true 
            p "push handle in to lock the tilt"
            end
-  `
+ 
