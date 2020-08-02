@@ -1,13 +1,27 @@
-Class: LightFixture
+Object: PhillipsHue
 
-bar_light = LightFixture.new (60, fluorescent, on, Pendant)
+Attributes:
+watts (60)
+type (LED)
+status (broken)
+dimmable(true)
+color("Soft White")
+heat(low)
 
-Method results:
+Methods:
 
-bulb_watts == 60
+changeBulb: if status == broken
+              p "New bulb needed"
+            end
 
-update_type = "Please update to LED"
+dimBulb: if dimmable == true
+           p "Dim the light before the movie starts!"
+         end
 
-change = false
+paintBulb: color("yellow")
 
-pool_table_style = false
+coolBulb: if heat == high
+           p "turn off light fixture for 10 minutes"
+          else 
+           p "No action necessary"
+          end
