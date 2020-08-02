@@ -8,8 +8,8 @@ def quotient do
   return
 end
 
-song = ("The Search", "Stop it now", "Imagine")
+songs = ["The Search", "Stop it now", "Imagine"]
 
-song.delete_at[0]
+songs.delete_at(0)
 
 food.length
