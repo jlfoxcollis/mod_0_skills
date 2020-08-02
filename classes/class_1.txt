@@ -4,7 +4,7 @@ Attributes:
 material (string)
 height(integer)
 width(integer)
-wheels(boolean)
+tilt(boolean)
 cushion(boolean)
 color(integer)
 
@@ -17,4 +17,4 @@ relax (if it has a cushion great, if not add one)
  
 changeColor (changes the color attribute)
 
-moveChair (change current location)
+lockTilt (stop office chair from tilting or not)
